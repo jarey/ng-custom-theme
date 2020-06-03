@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "build-themes": "bash ./tools/build-themes.sh",
-    "tato-build": "node ./tools/build-themes.js"
+    "compile-css-themes": "node ./tools/build-themes.js"
   },
   "private": true,
   "dependencies": {
@@ -20,6 +20,7 @@
     "@angular/core": "~8.2.14",
     "@angular/forms": "~8.2.14",
     "@angular/material": "^8.2.3",
+    "@amtega/igvcomp-public-gui-lib": "1.2.0",
     "@angular/platform-browser": "~8.2.14",
     "@angular/platform-browser-dynamic": "~8.2.14",
     "@angular/router": "~8.2.14",
